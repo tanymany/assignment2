@@ -1,0 +1,84 @@
+.jumbotron{
+    background: url("../img/jbbg.jpg");
+    color: azure;
+    font-family: 'Paytone One', sans-serif;
+}
+
+/*-------------------------------map---------------------------------------------------------*/
+.mapouter {
+    text-align: right;
+    height: 300px;
+    width: 1080px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 300px;
+    width: 1080px;
+}
+/*-------------------------------map---------------------------------------------------------*/
+/* footer------------------------------------------------------------------------------------*/
+.ft {
+    position: relative;
+    bottom: 0;
+    background: url("../img/ftbg.jpg") no-repeat center; 
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+    }
+.ic{
+    font-size: 20px;
+}
+
+.ft a:link{
+    color: white;
+
+}
+
+.ft a:visited{
+    color: white;
+}
+
+.ft a:hover{
+    color: greenyellow;
+}
+
+.ft a:active{
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------*/
+
+.navbar-brand{
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+}
+
+.hc{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 40px;
+}
+
+/*----------------------------------card--------------------------------------------------------------*/
+.card-title{
+    font-family: 'Paytone One', sans-serif;
+}
+.row i{
+    font-size: 60px;
+}
+/*-----------------------media queries-----------------------------------------------------------------*/
+@media (max-width: 500px){
+    .carousel img{
+    height: 300px;
+    }
+}
+
+@media (min-width: 1080px){
+    .carousel img{
+    height: 900px;
+    }
+}
+.carousel{
+    background-size: contain;
+
+}
