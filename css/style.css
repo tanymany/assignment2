@@ -70,16 +70,21 @@
 @media (max-width: 500px){
     .carousel img{
     height: auto;
-    width: auto;
+    width: 100%;
     }
 }
 
 @media (min-width: 1080px){
     .carousel img{
     height: 900px;
+    width: 100%;
     }
 }
 .carousel{
     background-size: contain;
 
+}
+#maps{
+    width: auto;
+    height:300px;
 }
