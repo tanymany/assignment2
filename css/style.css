@@ -1,7 +1,8 @@
 .jumbotron{
-    background: url("../img/jbbg.jpg");
+    background: url("../img/jbbg.jpg") center no-repeat;
     color: azure;
     font-family: 'Paytone One', sans-serif;
+    background-size: cover;
 }
 
 /*-------------------------------map---------------------------------------------------------*/
